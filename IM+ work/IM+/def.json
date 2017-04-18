@@ -1,0 +1,29 @@
+﻿[{
+        "author": "Direnor.",
+                "name": "IM+",
+                "email": "web_weaver@mail.ru",
+                "website": "https://plus.im/"  
+        "date": "05.04.2017"
+        "type": "extension",
+                "frameworkVersion":"1.0.0",
+                "version":"1.0.1",
+        "guid": "{9F3CEE82-8E41-4282-AD40-94195E0897A1}",
+        "name": "IM+",
+                "icon": "icon",
+        "title": {"en": "IM+", "ru-ru": "IM+"},
+                "description": {"en": "IM+"}
+        "actions": [{
+                "type": "panel",
+                "entryPoints": ["sidebar"],
+                "stopOnClose": true,
+                "main": "https://plus.im/",
+                "allowPin": true,
+                "resizable": true,
+                "width": {"default": 879,
+                        "min": 200,
+                        "max": 1920},
+                "height": {"default": 777,
+                        "min": 490,
+                        "max": 1200}
+                }]
+}]

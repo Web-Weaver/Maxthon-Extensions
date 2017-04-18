@@ -1,0 +1,29 @@
+﻿[{
+        "author": "Direnor.",
+                "name": "WhatsApp",
+                "email": "web_weaver@mail.ru",
+                "website": "https://web.whatsapp.com/"  
+        "date": "06.04.2017"
+        "type": "extension",
+                "frameworkVersion":"1.0.0",
+                "version":"1.0.1",
+        "guid": "{DADAF6ED-AA97-44E6-899C-D0DDAD84F647}",
+        "name": "IM+",
+                "icon": "icon",
+        "title": {"en": "WhatsApp", "ru-ru": "WhatsApp"},
+                "description": {"en": "WhatsApp"}
+        "actions": [{
+                "type": "panel",
+                "entryPoints": ["sidebar"],
+                "stopOnClose": true,
+                "main": "https://web.whatsapp.com/",
+                "allowPin": true,
+                "resizable": true,
+                "width": {"default": 879,
+                        "min": 200,
+                        "max": 1920},
+                "height": {"default": 777,
+                        "min": 490,
+                        "max": 1200}
+                }]
+}]

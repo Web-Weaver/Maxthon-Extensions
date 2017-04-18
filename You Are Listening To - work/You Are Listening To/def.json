@@ -1,0 +1,29 @@
+﻿[{
+        "author": "Direnor.",
+                "name": "You Are Listening To",
+                "email": "web_weaver@mail.ru",
+                "website": "http://youarelistening.to/"  
+        "date": "05.04.2017"
+        "type": "extension",
+                "frameworkVersion":"1.0.0",
+                "version":"1.0.1",
+        "guid": "{A35C6AD4-6F28-448F-A7C8-B5B8DD315BB7}",
+        "name": "Listen To The Clouds",
+                "icon": "icon",
+        "title": {"en": "You Are Listening To", "ru-ru": "You Are Listening To"},
+                "description": {"en": "You Are Listening To"}
+        "actions": [{
+                "type": "panel",
+                "entryPoints": ["sidebar"],
+                "stopOnClose": true,
+                "main": "http://youarelistening.to/",
+                "allowPin": true,
+                "resizable": true,
+                "width": {"default": 800,
+                        "min": 200,
+                        "max": 1920},
+                "height": {"default": 600,
+                        "min": 490,
+                        "max": 1200}
+                }]
+}]

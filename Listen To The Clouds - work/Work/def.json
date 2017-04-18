@@ -1,0 +1,29 @@
+﻿[{
+        "author": "Direnor.",
+                "name": "Listen To The Clouds",
+                "email": "web_weaver@mail.ru",
+                "website": "http://listentothe.cloud/"  
+        "date": "05.04.2017"
+        "type": "extension",
+                "frameworkVersion":"1.0.0",
+                "version":"1.0.1",
+        "guid": "{011BD59D-F99E-4214-B3F9-A5F674BA51A6}",
+        "name": "Listen To The Clouds",
+                "icon": "icon",
+        "title": {"en": "Listen To The Clouds", "ru-ru": "Listen To The Clouds"},
+                "description": {"en": "Listen To The Clouds"}
+        "actions": [{
+                "type": "panel",
+                "entryPoints": ["sidebar"],
+                "stopOnClose": true,
+                "main": "http://listentothe.cloud/",
+                "allowPin": true,
+                "resizable": true,
+                "width": {"default": 660,
+                        "min": 200,
+                        "max": 1920},
+                "height": {"default": 600,
+                        "min": 490,
+                        "max": 1200}
+                }]
+}]
